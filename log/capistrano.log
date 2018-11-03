@@ -1,0 +1,59 @@
+# Logfile created on 2018-11-02 23:03:42 +0100 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-02 23:03:42 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5dafcd8b] Running /usr/bin/env mkdir -p /tmp on 192.168.178.47
+ DEBUG [5dafcd8b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 11:03:15 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d7dc5bbc] Running /usr/bin/env mkdir -p /tmp on 192.168.178.47
+ DEBUG [d7dc5bbc] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 11:04:52 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [78ca36a8] Running /usr/bin/env mkdir -p /tmp on 192.168.178.47
+ DEBUG [78ca36a8] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 11:05:31 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [707fde25] Running /usr/bin/env mkdir -p /tmp on 192.168.178.47
+ DEBUG [707fde25] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 11:28:02 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [05f721cc] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [05f721cc] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 11:32:10 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2ba2ea86] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [2ba2ea86] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 11:35:56 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bb8ddde0] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [bb8ddde0] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 11:40:49 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b2b977f6] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [b2b977f6] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 13:10:16 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [459f71fa] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [459f71fa] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f6fb4a38] Finished in 2.790 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-Timo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-Timo.sh 100.0%
+  INFO [3ef9065e] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh as pi@192.168.178.47
+ DEBUG [3ef9065e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh
+  INFO [0c7d3ce1] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [90bee715] Running /usr/bin/env git ls-remote  HEAD as pi@192.168.178.47
+ DEBUG [90bee715] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-Timo.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [aabb5c92] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [aabb5c92] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
