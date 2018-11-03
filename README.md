@@ -1,1 +1,1 @@
-# capistran
+# capistrano
