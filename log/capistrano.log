@@ -57,3 +57,62 @@
 
 Please make sure you have the correct access rights
 and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 13:42:51 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [435a1301] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [435a1301] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0fda572f] Finished in 3.000 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-Timo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-Timo.sh 100.0%
+  INFO [e09cfe93] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh as pi@192.168.178.47
+ DEBUG [e09cfe93] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh
+  INFO [0763fb71] Finished in 2.500 seconds with exit status 0 (successful).
+  INFO [7897180d] Running /usr/bin/env git ls-remote  HEAD as pi@192.168.178.47
+ DEBUG [7897180d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-Timo.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [dc6aaf1c] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [dc6aaf1c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 13:44:08 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [11769e75] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [11769e75] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 13:45:35 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fc2daf6f] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [fc2daf6f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [16b846b4] Finished in 0.660 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-Timo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-Timo.sh 100.0%
+  INFO [612c3ce4] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh as pi@192.168.178.47
+ DEBUG [612c3ce4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh
+  INFO [3f4d5bde] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [6cb1dd39] Running /usr/bin/env git ls-remote  HEAD as pi@192.168.178.47
+ DEBUG [6cb1dd39] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-Timo.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [044ef342] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [044ef342] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-03 13:50:20 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6d573768] Running /usr/bin/env mkdir -p /tmp as pi@192.168.178.47
+ DEBUG [6d573768] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6726153e] Finished in 15.920 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano-production-Timo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano-production-Timo.sh 100.0%
+  INFO [c4d6ccd9] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh as pi@192.168.178.47
+ DEBUG [c4d6ccd9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano-production-Timo.sh
+  INFO [6b825c43] Finished in 11.520 seconds with exit status 0 (successful).
+  INFO [f6280c02] Running /usr/bin/env git ls-remote  HEAD as pi@192.168.178.47
+ DEBUG [f6280c02] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano-production-Timo.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [e0794c8e] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [e0794c8e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
